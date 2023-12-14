@@ -3,7 +3,7 @@
         <v-alert :type="type">
             {{mensaje}}
         </v-alert>
-        <v-btn color="error" @click="salir()">Cerrar</v-btn>
+        <v-btn :color="type" @click="salir()">Cerrar</v-btn>
     </div>
 </template>
 
